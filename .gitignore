@@ -1,0 +1,63 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log
+
+# Build outputs
+dist/
+build/
+out/
+.tmp/
+
+# Angular
+/.angular/cache/
+/.angular/
+
+# Server & client folders
+server/node_modules/
+server/dist/
+client/node_modules/
+client/dist/
+client/.angular/
+client/.sass-cache/
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+pids/
+*.pid
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Coverage
+coverage/
+
+# IDEs & editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Packages
+*.tgz
+
+# Misc
+.vagrant/
+
+# Windows thumbnail cache
+ehthumbs.db
+
+# Optional: ignore local npm global installs
+# npm-global/
